@@ -77,7 +77,7 @@ const Resume = () => {
             {/* <li>Implemented modern development tools and workflows, resulting in 40% improvement in development speed and 60% reduction in code review time</li> */}
             <li>Developed comprehensive real-time messaging system with GitLab integration and AI chatbot using WebSocket, RabbitMQ, and STOMP protocols</li>
             <li>Implemented MedsKey hospital management system with live tracking and secure API integration</li>
-            <li>Developed Sampark Setu mobile application for ARESA initiative, enabling Ex-Servicemen and ARESA Centres to manage grievance redressal, policy updates, and grant management</li>
+            <li>Developed Sampark Setu mobile application for ARESA initiative, enabling Ex-Servicemen and ARESA Centres to manage grievance, policy updates, and grant management</li>
             <li>Developed 5+ cross-platform mobile applications using React Native, JavaScript, Firebase, and SQLite</li>
             <li>Designed and developed responsive web applications using React.js, JavaScript, and Bootstrap CSS</li>
             <li>Integrated third-party APIs including payment gateways, OpenStreetMaps, and secure API authentication systems; implemented Firebase push notifications</li>
@@ -123,7 +123,7 @@ const Resume = () => {
             <li>Developed React Native application for Ring Bell application development</li>
             <li>Integrated third-party APIs and implemented Redux for state management; utilized Firebase for push notifications</li>
             <li>Built cross-platform applications from scratch for both iOS and Android platforms</li>
-            <li>Achieved 95% code coverage through comprehensive testing and quality checks</li>
+            {/* <li>Achieved 95% code coverage through comprehensive testing and quality checks</li> */}
             <li>Collaborated with cross-functional teams to deliver high-quality software solutions</li>
           </ul>
         </div>

@@ -4,13 +4,13 @@ const Resume = () => {
   return (
     <div className="w-full bg-white p-8 max-w-6xl mx-auto">
       {/* Header */}
-      <header className="text-center mb-8">
+      <header className="text-center mb-8 resume-section" data-section="header">
         <h1 className="text-3xl font-bold text-gray-900 mb-2">Akash Saini</h1>
         <p className="text-lg text-gray-600">Gurugram, Haryana, India | +91-7302033202 | akashsaini5377@gmail.com</p>
       </header>
 
       {/* Professional Summary */}
-      <section className="mb-6 break-inside-avoid">
+      <section className="mb-6 break-inside-avoid resume-section" data-section="professional-summary">
         <div className="bg-gray-300 py-2 px-4 mb-3">
           <h2 className="text-lg font-bold text-gray-800 text-center mb-3">Professional Summary</h2>
         </div>
@@ -23,7 +23,7 @@ const Resume = () => {
       </section>
 
       {/* Skills */}
-      <section className="mb-6 break-inside-avoid">
+      <section className="mb-6 break-inside-avoid resume-section" data-section="skills">
         <div className="bg-gray-300 py-2 px-4 mb-3">
           <h2 className="text-lg font-bold text-gray-800 text-center mb-3">Skills</h2>
         </div>
@@ -58,7 +58,7 @@ const Resume = () => {
       </section>
 
       {/* Work History */}
-      <section className="mb-6 break-inside-avoid">
+      <section className="mb-6 break-inside-avoid resume-section" data-section="work-history">
         <div className="bg-gray-300 py-2 px-4 mb-3">
           <h2 className="text-lg font-bold text-gray-800 text-center mb-3">Work History</h2>
         </div>
@@ -130,7 +130,7 @@ const Resume = () => {
       </section>
 
       {/* Notable Projects */}
-      <section className="mb-6 break-inside-avoid">
+      <section className="mb-6 break-inside-avoid resume-section" data-section="notable-projects">
         <div className="bg-gray-300 py-2 px-4 mb-3">
           <h2 className="text-lg font-bold text-gray-800 text-center mb-3">Notable Projects</h2>
         </div>
@@ -156,7 +156,7 @@ const Resume = () => {
 
 
       {/* Education */}
-      <section className="mb-6 break-inside-avoid">
+      <section className="mb-6 break-inside-avoid resume-section" data-section="education">
         <div className="bg-gray-300 py-2 px-4 mb-3">
           <h2 className="text-lg font-bold text-gray-800 text-center mb-3">Education</h2>
         </div>
@@ -172,24 +172,22 @@ const Resume = () => {
       </section>
 
       {/* Certifications */}
-      <div style={{ paddingTop: '30px', minHeight: '100px' }}>
-        <section className="mb-8 break-inside-avoid" style={{ pageBreakBefore: 'auto', pageBreakInside: 'avoid', breakInside: 'avoid' }}>
-          <div className="bg-gray-300 py-2 px-4 mb-3">
-            <h2 className="text-lg font-bold text-gray-800 text-center mb-3">Certifications</h2>
+      <section className="mb-8 break-inside-avoid resume-section" data-section="certifications" style={{ paddingTop: '30px', pageBreakBefore: 'auto', pageBreakInside: 'avoid', breakInside: 'avoid' }}>
+        <div className="bg-gray-300 py-2 px-4 mb-3">
+          <h2 className="text-lg font-bold text-gray-800 text-center mb-3">Certifications</h2>
+        </div>
+        <div className="grid grid-cols-3 gap-4 pb-4">
+         
+          <div>
+            <h3 className="font-semibold text-gray-800 text-sm">React Native Development</h3>
+            <p className="text-xs text-gray-700">Jspider Institute in Noida</p>
           </div>
-          <div className="grid grid-cols-3 gap-4 pb-4">
-           
-            <div>
-              <h3 className="font-semibold text-gray-800 text-sm">React Native Development</h3>
-              <p className="text-xs text-gray-700">Jspider Institute in Noida</p>
-            </div>
-           
-          </div>
-        </section>
-      </div>
+         
+        </div>
+      </section>
 
       {/* Languages */}
-      <section className="mb-6 break-inside-avoid">
+      <section className="mb-6 break-inside-avoid resume-section" data-section="languages">
         <div className="bg-gray-300 py-2 px-4 mb-3">
           <h2 className="text-lg font-bold text-gray-800 text-center mb-3">Languages</h2>
         </div>

@@ -15,7 +15,7 @@ const Resume = () => {
           <h2 className="text-lg font-bold text-gray-800 text-center mb-3">Professional Summary</h2>
         </div>
         <p className="text-gray-700 leading-relaxed mb-3 text-sm">
-          Results-driven Software Developer with 2.5+ years of experience specializing in React Native mobile applications and React.js web development. Proven track record of delivering scalable, high-performance applications for healthcare, e-commerce, and enterprise sectors. Expert in modern development practices including, real-time features, and secure API integrations.
+          Results-driven Software Developer with 3 years of experience specializing in React Native mobile applications and React.js web development. Proven track record of delivering scalable, high-performance applications for healthcare, e-commerce, and enterprise sectors. Expert in modern development practices including, real-time features, and secure API integrations.
         </p>
         <p className="text-gray-700 leading-relaxed text-sm">
           Experienced in integrating complex APIs (OpenStreetMaps, payment gateways), implementing real-time features (WebSocket, RabbitMQ), and ensuring data security through end-to-end encryption. Successfully deployed applications to both iOS App Store and Google Play Store.
@@ -109,11 +109,11 @@ const Resume = () => {
           </ul>
         </div> */}
 
-        {/* Krenai Services Position */}
+        {/* ANSIT Services Position */}
         <div className="mb-6">
           <div className="flex justify-between items-baseline mb-1">
             <h3 className="text-base font-bold text-gray-800">Mobile Application Developer</h3>
-            <span className="text-gray-600 text-sm">Aug 2023 – Dec 2023</span>
+            <span className="text-gray-600 text-sm">Aug 2023 – Nov 2023</span>
           </div>
           <div className="flex justify-between items-baseline mb-2">
             <p className="text-gray-700 font-semibold text-sm">ANSIT Services Pvt Ltd</p>

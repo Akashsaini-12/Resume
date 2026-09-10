@@ -15,10 +15,10 @@ const Resume = () => {
           <h2 className="text-lg font-bold text-gray-800 text-center mb-3">Professional Summary</h2>
         </div>
         <p className="text-gray-700 leading-relaxed mb-3 text-sm">
-          Results-driven Software Developer with 3+ years of experience specializing in React Native mobile applications and React.js web development. Proven track record of delivering scalable, high-performance applications for healthcare, e-commerce, and enterprise sectors. Expert in modern development practices including real-time features, secure API integrations, and AI-assisted development workflows.
+          Results-driven Software Developer with 3 years of experience specializing in React Native mobile applications and React.js web development. Proven track record of delivering scalable, high-performance applications for healthcare, e-commerce, and enterprise sectors. Expert in modern development practices including, real-time features, and secure API integrations.
         </p>
         <p className="text-gray-700 leading-relaxed text-sm">
-          Experienced in integrating complex APIs ( OpenStreetMaps, payment gateways), implementing real-time features (WebSocket, RabbitMQ, STOMP), and ensuring data security through end-to-end encryption. Successfully deployed applications to both iOS App Store and Google Play Store.
+          Experienced in integrating complex APIs (OpenStreetMaps, payment gateways), implementing real-time features (WebSocket, RabbitMQ), and ensuring data security through end-to-end encryption. Successfully deployed applications to both iOS App Store and Google Play Store.
         </p>
       </section>
 
@@ -45,8 +45,8 @@ const Resume = () => {
             <p className="text-xs text-gray-700">Git</p>
           </div>
           <div>
-            <h3 className="font-semibold text-gray-800 mb-1 text-sm">Development Tools:</h3>
-            <p className="text-xs text-gray-700">VS Code, Cursor, Postman, Git, ChatGPT/Claude</p>
+            <h3 className="font-semibold text-gray-800 mb-1 text-sm">Tools:</h3>
+            <p className="text-xs text-gray-700">VS Code, Postman, Git</p>
           </div>
         </div>
         {/* <div className="bg-gray-200 p-3 rounded">
@@ -172,7 +172,7 @@ const Resume = () => {
       </section>
 
       {/* Certifications */}
-      <section className="mb-6 break-inside-avoid resume-section" data-section="certifications">
+      <section className="mb-8 break-inside-avoid resume-section" data-section="certifications" style={{ paddingTop: '30px', pageBreakBefore: 'auto', pageBreakInside: 'avoid', breakInside: 'avoid' }}>
         <div className="bg-gray-300 py-2 px-4 mb-3">
           <h2 className="text-lg font-bold text-gray-800 text-center mb-3">Certifications</h2>
         </div>
